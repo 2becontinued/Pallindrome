@@ -7,7 +7,6 @@ Validates strings as palindromes.
 import string
 from collections import deque
 from collections import namedtuple
-from collections import namedtuple
 
 # Setup end!
 
@@ -18,3 +17,5 @@ def is_palindrome(value):  # Defines is_palindrome as a value
     if value == "":
         return False
 
+
+    return True  # IF nothing is listed that matches a input, return true.

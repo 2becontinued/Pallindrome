@@ -16,3 +16,6 @@ def test_raises_a_ValueError_when_input_is_not_a_String(): # Defines a test.
 def test_returns_False_when_empty_string_called():
     assert is_palindrome("") is False
 
+def test_Returns_True_when_string_is_A():
+    assert is_palindrome("a") is True
+
