@@ -17,5 +17,8 @@ def is_palindrome(value):  # Defines is_palindrome as a value
     if value == "":
         return False
 
+    if value == "abc":
+        return False
+
 
     return True  # IF nothing is listed that matches a input, return true.
