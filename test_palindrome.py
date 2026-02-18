@@ -22,3 +22,5 @@ def test_Returns_True_when_string_is_A():
 def test_Returns_False_when_string_is_Abc():
     assert is_palindrome("abc") is False
 
+def test_Returns_True_when_string_is_Laval():
+    assert is_palindrome("laval") is True

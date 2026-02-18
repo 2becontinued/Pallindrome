@@ -21,4 +21,6 @@ def is_palindrome(value):  # Defines is_palindrome as a value
         return False
 
 
+
+
     return True  # IF nothing is listed that matches a input, return true.
