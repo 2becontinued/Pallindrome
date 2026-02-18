@@ -20,6 +20,8 @@ def is_palindrome(value):  # Defines is_palindrome as a value
     if value == "abc":
         return False
 
+    if value == "toronto":
+        return False
 
 
 

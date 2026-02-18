@@ -24,3 +24,6 @@ def test_Returns_False_when_string_is_Abc():
 
 def test_Returns_True_when_string_is_Laval():
     assert is_palindrome("laval") is True
+
+def test_Returns_False_when_string_is_Toronto():
+    assert is_palindrome("toronto") is False
