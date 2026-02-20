@@ -6,12 +6,12 @@ Validates strings as palindromes.
 
 from collections import deque
 
+
 # Setup end!
 
 def is_palindrome(value):  # Defines is_palindrome as a value
     if not isinstance(value, str):
         raise ValueError  # Raises a ValueError
-
 
     prepared = "".join(ch.lower() for ch in value if ch.isalnum())  # Prepares the value variable for the algorithm
 
